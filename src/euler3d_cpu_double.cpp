@@ -118,7 +118,7 @@ int main(int argc, char** argv)
         // op_init(argc, argv, 2); // Info on plan construction
         // op_init(argc, argv, 1); // Error-checking
     #else
-        op_init(argc, argv, 0);
+        op_init(argc, argv, 1);
     #endif
 
     // timer
